@@ -22,16 +22,16 @@ h3 {
 
 .home_button{
   position: fixed;
-  top: 20px;
+  top: 2%;
   left: 45%;
   display: flex;
-  gap: 20px;
+  gap: 5%;
 }
 
 .about_button{
   position: fixed;
-  top: 20px;
+  top: 2%;
   right: 45%;
   display: flex;
-  gap: 20px;
+  gap: 5%;
 }

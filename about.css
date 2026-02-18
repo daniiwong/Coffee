@@ -12,16 +12,16 @@ h1 {
 
 .home_button{
   position: fixed;
-  top: 20px;
-  left: 45%;
+  top: 2%;
+  left: 42%;
   display: flex;
-  gap: 20px;
+  gap: 5%;
 }
 
 .about_button{
   position: fixed;
-  top: 20px;
-  right: 45%;
+  top: 2%;
+  right: 42%;
   display: flex;
-  gap: 20px;
+  gap: 5%;
 }
