@@ -20,18 +20,12 @@ h3 {
     text-align: center;
 }
 
-.home_button{
+.button{
   position: fixed;
   top: 2%;
-  left: 45%;
-  display: flex;
-  gap: 5%;
-}
+  left: 50%;
+  transform: translateX(-50%);
 
-.about_button{
-  position: fixed;
-  top: 2%;
-  right: 45%;
   display: flex;
-  gap: 5%;
+  gap: 30px;
 }
