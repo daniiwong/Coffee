@@ -11,15 +11,17 @@ h1 {
 }
 
 .home_button{
-    display: block;
-    position: fixed;
-    top: 20px;
-    left: 730px;
+  position: fixed;
+  top: 20px;
+  left: 45%;
+  display: flex;
+  gap: 20px;
 }
 
 .about_button{
-    display: block;
-    position: fixed;
-    top: 20px;
-    left: 920px;
+  position: fixed;
+  top: 20px;
+  right: 45%;
+  display: flex;
+  gap: 20px;
 }
