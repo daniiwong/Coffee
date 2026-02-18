@@ -1,21 +1,32 @@
-body {
+.homePage {
   display: flex;
   justify-content: top;
   align-items: top;      
   height: 100vh;  
   flex-direction: column;
   background-image: url('home.jpeg');
-  background-size: cover;       /* fills screen */
-  background-position: center;  /* keeps it centered */
+  background-size: cover;       
+  background-position: center; 
   background-repeat: no-repeat;
 }
 
-h1 {
-    margin: 100px 0 10px 0;  /* top right bottom left */
+
+.aboutPage {
+  display: flex;
+  justify-content: top;
+  align-items: top;      
+  height: 100vh;  
+  flex-direction: column;
+}
+
+
+
+.welcome {
+    margin: 100px 0 10px 0;  
     text-align: center;
 }
 
-h3 {
+.affiliation{
     margin: 0;
     text-align: center;
 }
@@ -28,4 +39,8 @@ h3 {
 
   display: flex;
   gap: 30px;
+}
+
+.about {
+  margin: 0;
 }
