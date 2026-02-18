@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: top;
+  align-items: top;      
+  height: 100vh;  
+  flex-direction: column;
+  background-image: url('home.jpeg');
+  background-size: cover;       /* fills screen */
+  background-position: center;  /* keeps it centered */
+  background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 100px 0 10px 0;  /* top right bottom left */
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.home_button{
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 730px;
+}
+
+.about_button{
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 920px;
+}

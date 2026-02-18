@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;        
+  flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    text-align: top;
+}
+
+.home_button{
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 730px;
+}
+
+.about_button{
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 920px;
+}
